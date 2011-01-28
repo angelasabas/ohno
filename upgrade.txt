@@ -1,0 +1,43 @@
+
+Ohno - Upgrading Instructions
+=============================
+
+From 2.2 to 2.3
+----------------
+Due to the script overhaul, upload all files in the zip to your /troubles
+directory EXCEPT for config.inc.php
+
+
+From 2.1 to 2.2:
+----------------
+1. Upload the folllwing files to your /troubles directory:
+      - admin_home.php
+      - admin_login.php
+      - header.inc.php
+      - index.php
+
+
+From 2.0 to 2.1:
+----------------
+1. Upload the folllwing files to your /troubles directory:
+      - admin_home.php
+      - admin_login.php
+      - header.inc.php
+      - index.php
+      - updatedb.php
+2. Update your config.inc.php file to include this variable:
+      $link_target = '_blank';
+3. Set the above variable to the content of the target attribute you wish for
+   the fanlisting links to have (i.e., _blank for fanlisting links to open
+   in a new window, and _top for it to open in the same window).
+4. Run /troubles/updatedb.php to update your status tables.
+
+
+From 1.0 to 2.0:
+----------------
+1. Upload the following files into your /troubles directoty:
+      - header.gif
+      - header.inc.php
+      - admin_home.php
+2. If you wish to use the list template feature, create/edit/upload
+   template.txt into your /troubles directory

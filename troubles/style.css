@@ -1,0 +1,40 @@
+* { margin: 0; padding: 0; outline: none; }
+
+a { color: #2b4868; }
+a:hover, a:active { color: #5555ff; }
+body { font-family: Geneva, "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, sans-serif; font-size: 80%; color: #333; background-color: #fff; }
+
+.clear { clear: both; height: 0; }
+
+#menu { float: left; width: 15em; text-align: center; padding: 1em; z-index: 1; }
+#menu img.logo { margin: 0 auto 1em auto; }
+#menu ul { list-style-type: none; }
+#menu ul li { margin: 0.25em; }
+#menu ul li a { text-decoration: none; display: block; padding: 1em; background: #2b4868; color: #f1f1f1; border: 1px solid #152e4a; border-right-width: 0.5em; letter-spacing: 0.05em; }
+#menu ul li a:hover, #menu ul li a:active { background: #152e4a; color: #0ff; }
+#menu div.version { font-size: 90%; color: #777; margin: 1em; }
+
+#contents { margin: 1em 1em 1em 17em; padding: 0 1em 1em 1em; line-height: 150%; z-index: 1; }
+#contents h1 { margin: 1em 0 0.5em 0; }
+#contents p { margin: 0 0 1em 0; }
+
+#contents .important { color: #900; }
+#contents p.success { background: #9f9; border: 1px solid #5f5; margin: 0 2em 1em 2em; padding: 1em; color: #090; }
+#contents p.error { background: #f99; border: 1px solid #f55; margin: 0 2em 1em 2em; padding: 1em; color: #900; }
+
+#contents table { width: 90%; margin: 0 auto 1em auto; }
+#contents table tr td { background: #f1f1f1; padding: 0.5em; }
+#contents table tr th { padding: 0.5em; background: #2b4868; color: #f1f1f1; border-bottom: 0.25em solid #152e4a; letter-spacing: 0.05em; }
+
+#contents form { margin: 0 auto 1em auto; }
+fieldset { border: 0; }
+fieldset legend { display: none; }
+fieldset label { padding: 0.5em 1em 0.5em 0; }
+fieldset input#rememberme { margin-left: 1em; }
+fieldset label#labelRememberMe { font-size: 90%; }
+input, textarea, select { background-color: #dce3eb; border: 1px solid #2b4868; padding: 0.5em; margin: 0.1em; font-family: Geneva, "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, sans-serif; color: #333; }
+input#submit { display: block; margin: 1em 0 1em 0; }
+input#statText { width: 30em; }
+select#order_by { float: left; margin-right: 1em; }
+
+#ft { margin: 1em; border-top: 3px solid #2b4868; padding: 0.5em; text-align: center; font-size: 90%; }

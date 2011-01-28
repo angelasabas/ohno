@@ -1,0 +1,23 @@
+
+Ohno - Installation Instructions
+================================
+
+1. Unzip ohno.zip; it should create a directory named "troubles".
+
+2. Modify the troubles/config.sample.inc.php file and save this as
+   config.inc.php.
+   
+   If you DO NOT wish to use the list template feature, delete template.txt;
+   otherwise, feel fre to modify this file according to your preference
+   (see templatevars.txt for more information).
+
+3. Create a directory named "troubles" (or any directory name of your
+   choice on your own space.
+
+4. Upload everything into the folder (/troubles).
+
+5. Go to /troubles/install.php and follow instructions.
+
+6. Delete install.php
+
+7. Go to /troubles/index.php to log into the system.
